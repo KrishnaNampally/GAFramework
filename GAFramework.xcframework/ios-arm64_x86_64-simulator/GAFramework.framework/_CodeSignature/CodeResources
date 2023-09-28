@@ -658,11 +658,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		K2AodiTd/GFQLANtprCmF53rfAA=
+		CZbf7lA2SiVnqt7IlY/k+6GTTrc=
 		</data>
 		<key>Modules/GAFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		+v/V6baQQlDaCNZP0hoSOJlA5vY=
+		zYf++S19E660I1+sWFq7/lt36Y0=
 		</data>
 		<key>Modules/GAFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -678,11 +678,11 @@
 		</data>
 		<key>Modules/GAFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		YTlM5Jq8/KzDxtiA/RTY5XElpmE=
+		Kx227QH2zBWd5AQ3hDCinupJ2hg=
 		</data>
 		<key>Modules/GAFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		+v/V6baQQlDaCNZP0hoSOJlA5vY=
+		zYf++S19E660I1+sWFq7/lt36Y0=
 		</data>
 		<key>Modules/GAFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -698,7 +698,7 @@
 		</data>
 		<key>Modules/GAFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		g0SIEH5yzFpI7Via4RSa9JF99zg=
+		v9ZIaFCaFmukeDx0Dl6wLpRBZ4w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1860,7 +1860,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6cf/I808FAOUv6fdUd42h/f416EWtMsfr1MuqJCcjRc=
+			zVsIgSkbc7lVdrt1cpv5H0pUK4iWGKZzfwDvFr77zBY=
 			</data>
 		</dict>
 		<key>Modules/GAFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -1888,14 +1888,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XqxJ+UDUGT/BJM1HdQWvO6VcjGyNUs1FX0uDqom7X10=
+			PpzmcHT+RCrUQjy30z1D/enNmQDKboUxOJChH1Jv1pw=
 			</data>
 		</dict>
 		<key>Modules/GAFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6cf/I808FAOUv6fdUd42h/f416EWtMsfr1MuqJCcjRc=
+			zVsIgSkbc7lVdrt1cpv5H0pUK4iWGKZzfwDvFr77zBY=
 			</data>
 		</dict>
 		<key>Modules/GAFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -1923,7 +1923,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sPKwVNtLzY8MY76fwCBT0CgPsGKSf8jkmR/vgk5TBrU=
+			tetU9SNz+QOvok88bf2j0Uommo4pMdLoTXQvLucLeKk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -13,7 +13,26 @@
 		1E8E5C412AC569F700B6B405 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E8E5C3F2AC569F700B6B405 /* Main.storyboard */; };
 		1E8E5C432AC569F900B6B405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E8E5C422AC569F900B6B405 /* Assets.xcassets */; };
 		1E8E5C462AC569F900B6B405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E8E5C442AC569F900B6B405 /* LaunchScreen.storyboard */; };
+		1EC56EDD2AC5B08900C00571 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1EC56EDA2AC5B08800C00571 /* README.md */; };
+		1EC56EDE2AC5B08900C00571 /* GAFramework.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 1EC56EDB2AC5B08900C00571 /* GAFramework.podspec */; };
+		1EC56EDF2AC5B08900C00571 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1EC56EDC2AC5B08900C00571 /* LICENSE */; };
+		1EC56EE42AC5B0B400C00571 /* GAFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC56EE22AC5B0AF00C00571 /* GAFramework.xcframework */; };
+		1EC56EE52AC5B0B400C00571 /* GAFramework.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC56EE22AC5B0AF00C00571 /* GAFramework.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1EC56EE62AC5B0B400C00571 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1EC56EE52AC5B0B400C00571 /* GAFramework.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1E8E5C362AC569F700B6B405 /* GAFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GAFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +43,10 @@
 		1E8E5C422AC569F900B6B405 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E8E5C452AC569F900B6B405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E8E5C472AC569F900B6B405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EC56EDA2AC5B08800C00571 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		1EC56EDB2AC5B08900C00571 /* GAFramework.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = GAFramework.podspec; sourceTree = SOURCE_ROOT; };
+		1EC56EDC2AC5B08900C00571 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		1EC56EE22AC5B0AF00C00571 /* GAFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GAFramework.xcframework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EC56EE42AC5B0B400C00571 /* GAFramework.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +80,10 @@
 		1E8E5C382AC569F700B6B405 /* GAFramework */ = {
 			isa = PBXGroup;
 			children = (
+				1EC56EE22AC5B0AF00C00571 /* GAFramework.xcframework */,
+				1EC56EDB2AC5B08900C00571 /* GAFramework.podspec */,
+				1EC56EDC2AC5B08900C00571 /* LICENSE */,
+				1EC56EDA2AC5B08800C00571 /* README.md */,
 				1E8E5C392AC569F700B6B405 /* AppDelegate.swift */,
 				1E8E5C3B2AC569F700B6B405 /* SceneDelegate.swift */,
 				1E8E5C3D2AC569F700B6B405 /* ViewController.swift */,
@@ -77,6 +105,7 @@
 				1E8E5C322AC569F700B6B405 /* Sources */,
 				1E8E5C332AC569F700B6B405 /* Frameworks */,
 				1E8E5C342AC569F700B6B405 /* Resources */,
+				1EC56EE62AC5B0B400C00571 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,8 +154,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EC56EDF2AC5B08900C00571 /* LICENSE in Resources */,
 				1E8E5C462AC569F900B6B405 /* LaunchScreen.storyboard in Resources */,
+				1EC56EDE2AC5B08900C00571 /* GAFramework.podspec in Resources */,
 				1E8E5C432AC569F900B6B405 /* Assets.xcassets in Resources */,
+				1EC56EDD2AC5B08900C00571 /* README.md in Resources */,
 				1E8E5C412AC569F700B6B405 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
