@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'GAFramework'
-  spec.version      = '1.0.0'
+  spec.version      = '1.0.1'
   spec.summary      = 'Analytics Framework'
   spec.description  = <<-DESC
     import GAFramework framework and implement methods
