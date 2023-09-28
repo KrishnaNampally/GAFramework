@@ -16,8 +16,8 @@
 		1EC56EDD2AC5B08900C00571 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1EC56EDA2AC5B08800C00571 /* README.md */; };
 		1EC56EDE2AC5B08900C00571 /* GAFramework.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 1EC56EDB2AC5B08900C00571 /* GAFramework.podspec */; };
 		1EC56EDF2AC5B08900C00571 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1EC56EDC2AC5B08900C00571 /* LICENSE */; };
-		1EC56EE42AC5B0B400C00571 /* GAFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC56EE22AC5B0AF00C00571 /* GAFramework.xcframework */; };
-		1EC56EE52AC5B0B400C00571 /* GAFramework.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC56EE22AC5B0AF00C00571 /* GAFramework.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1EC56EEF2AC5B55000C00571 /* GAFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC56EED2AC5B54200C00571 /* GAFramework.xcframework */; };
+		1EC56EF02AC5B55000C00571 /* GAFramework.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC56EED2AC5B54200C00571 /* GAFramework.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,7 +27,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				1EC56EE52AC5B0B400C00571 /* GAFramework.xcframework in Embed Frameworks */,
+				1EC56EF02AC5B55000C00571 /* GAFramework.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,7 +46,7 @@
 		1EC56EDA2AC5B08800C00571 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		1EC56EDB2AC5B08900C00571 /* GAFramework.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = GAFramework.podspec; sourceTree = SOURCE_ROOT; };
 		1EC56EDC2AC5B08900C00571 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
-		1EC56EE22AC5B0AF00C00571 /* GAFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GAFramework.xcframework; sourceTree = SOURCE_ROOT; };
+		1EC56EED2AC5B54200C00571 /* GAFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GAFramework.xcframework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EC56EE42AC5B0B400C00571 /* GAFramework.xcframework in Frameworks */,
+				1EC56EEF2AC5B55000C00571 /* GAFramework.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +80,7 @@
 		1E8E5C382AC569F700B6B405 /* GAFramework */ = {
 			isa = PBXGroup;
 			children = (
-				1EC56EE22AC5B0AF00C00571 /* GAFramework.xcframework */,
+				1EC56EED2AC5B54200C00571 /* GAFramework.xcframework */,
 				1EC56EDB2AC5B08900C00571 /* GAFramework.podspec */,
 				1EC56EDC2AC5B08900C00571 /* LICENSE */,
 				1EC56EDA2AC5B08800C00571 /* README.md */,

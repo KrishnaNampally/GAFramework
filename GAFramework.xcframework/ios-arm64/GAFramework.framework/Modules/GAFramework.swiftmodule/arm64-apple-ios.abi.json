@@ -300,126 +300,126 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/shivkumaryadav\/Downloads\/GAFrameworkSC-main\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
       "kind": "StringLiteral",
       "offset": 1688,
       "length": 5,
       "value": "\"DEV\""
     },
     {
-      "filePath": "\/Users\/shivkumaryadav\/Downloads\/GAFrameworkSC-main\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
       "kind": "StringLiteral",
       "offset": 1696,
       "length": 3,
       "value": "\"_\""
     },
     {
-      "filePath": "\/Users\/shivkumaryadav\/Downloads\/GAFrameworkSC-main\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
       "kind": "StringLiteral",
       "offset": 1739,
       "length": 18,
       "value": "\"CUSTOM_DEVICE_ID\""
     },
     {
-      "filePath": "\/Users\/shivkumaryadav\/Downloads\/GAFrameworkSC-main\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
       "kind": "StringLiteral",
       "offset": 1896,
       "length": 10,
       "value": "\"game won\""
     },
     {
-      "filePath": "\/Users\/shivkumaryadav\/Downloads\/GAFrameworkSC-main\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
       "kind": "StringLiteral",
       "offset": 2094,
       "length": 11,
       "value": "\"game lost\""
     },
     {
-      "filePath": "\/Users\/shivkumaryadav\/Downloads\/GAFrameworkSC-main\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
       "kind": "StringLiteral",
       "offset": 2296,
       "length": 12,
       "value": "\"cart_value\""
     },
     {
-      "filePath": "\/Users\/shivkumaryadav\/Downloads\/GAFrameworkSC-main\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
       "kind": "StringLiteral",
       "offset": 2359,
       "length": 8,
       "value": "\"DEVICE\""
     },
     {
-      "filePath": "\/Users\/shivkumaryadav\/Downloads\/GAFrameworkSC-main\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
       "kind": "StringLiteral",
       "offset": 2370,
       "length": 3,
       "value": "\"_\""
     },
     {
-      "filePath": "\/Users\/shivkumaryadav\/Downloads\/GAFrameworkSC-main\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
       "kind": "StringLiteral",
       "offset": 2387,
       "length": 4,
       "value": "\"_1\""
     },
     {
-      "filePath": "\/Users\/shivkumaryadav\/Downloads\/GAFrameworkSC-main\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
       "kind": "StringLiteral",
       "offset": 2505,
       "length": 11,
       "value": "\"DEVICE_ID\""
     },
     {
-      "filePath": "\/Users\/shivkumaryadav\/Downloads\/GAFrameworkSC-main\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
       "kind": "StringLiteral",
       "offset": 2571,
       "length": 21,
       "value": "\"CUSTOM_REGISTRATION\""
     },
     {
-      "filePath": "\/Users\/shivkumaryadav\/Downloads\/GAFrameworkSC-main\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
       "kind": "StringLiteral",
       "offset": 2699,
       "length": 11,
       "value": "\"DEVICE_ID\""
     },
     {
-      "filePath": "\/Users\/shivkumaryadav\/Downloads\/GAFrameworkSC-main\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
       "kind": "StringLiteral",
       "offset": 2765,
       "length": 14,
       "value": "\"CUSTOM_LOGIN\""
     },
     {
-      "filePath": "\/Users\/shivkumaryadav\/Downloads\/GAFrameworkSC-main\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
       "kind": "StringLiteral",
       "offset": 2903,
       "length": 3,
       "value": "\"D\""
     },
     {
-      "filePath": "\/Users\/shivkumaryadav\/Downloads\/GAFrameworkSC-main\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
       "kind": "StringLiteral",
       "offset": 2909,
       "length": 3,
       "value": "\"_\""
     },
     {
-      "filePath": "\/Users\/shivkumaryadav\/Downloads\/GAFrameworkSC-main\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
       "kind": "StringLiteral",
       "offset": 2926,
       "length": 4,
       "value": "\"_2\""
     },
     {
-      "filePath": "\/Users\/shivkumaryadav\/Downloads\/GAFrameworkSC-main\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
       "kind": "StringLiteral",
       "offset": 2958,
       "length": 16,
       "value": "\"payment_status\""
     },
     {
-      "filePath": "\/Users\/shivkumaryadav\/Downloads\/GAFrameworkSC-main\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
       "kind": "StringLiteral",
       "offset": 2975,
       "length": 10,
