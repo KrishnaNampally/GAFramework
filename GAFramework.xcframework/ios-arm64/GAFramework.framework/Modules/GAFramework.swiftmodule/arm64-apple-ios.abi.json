@@ -1,0 +1,429 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GAFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FirebaseCore",
+        "printedName": "FirebaseCore",
+        "declKind": "Import",
+        "moduleName": "GAFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FirebaseAnalytics",
+        "printedName": "FirebaseAnalytics",
+        "declKind": "Import",
+        "moduleName": "GAFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "FirebaseFirestore",
+        "printedName": "FirebaseFirestore",
+        "declKind": "Import",
+        "moduleName": "GAFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "FirebaseAuth",
+        "printedName": "FirebaseAuth",
+        "declKind": "Import",
+        "moduleName": "GAFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GAAnalyticsReporter",
+        "printedName": "GAAnalyticsReporter",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "configureFirebase",
+            "printedName": "configureFirebase()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11GAFramework19GAAnalyticsReporterC17configureFirebaseyyFZ",
+            "mangledName": "$s11GAFramework19GAAnalyticsReporterC17configureFirebaseyyFZ",
+            "moduleName": "GAFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUpFirstOpen",
+            "printedName": "setUpFirstOpen(deviceId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11GAFramework19GAAnalyticsReporterC14setUpFirstOpen8deviceIdySS_tFZ",
+            "mangledName": "$s11GAFramework19GAAnalyticsReporterC14setUpFirstOpen8deviceIdySS_tFZ",
+            "moduleName": "GAFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUpGameWonEvent",
+            "printedName": "setUpGameWonEvent(gameName:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11GAFramework19GAAnalyticsReporterC17setUpGameWonEvent8gameName5valueySS_SStFZ",
+            "mangledName": "$s11GAFramework19GAAnalyticsReporterC17setUpGameWonEvent8gameName5valueySS_SStFZ",
+            "moduleName": "GAFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUpGameLostEvent",
+            "printedName": "setUpGameLostEvent(gameName:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11GAFramework19GAAnalyticsReporterC18setUpGameLostEvent8gameName5valueySS_SStFZ",
+            "mangledName": "$s11GAFramework19GAAnalyticsReporterC18setUpGameLostEvent8gameName5valueySS_SStFZ",
+            "moduleName": "GAFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUpCartValue",
+            "printedName": "setUpCartValue(key:size:deviceId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11GAFramework19GAAnalyticsReporterC14setUpCartValue3key4size8deviceIdySS_SiSStFZ",
+            "mangledName": "$s11GAFramework19GAAnalyticsReporterC14setUpCartValue3key4size8deviceIdySS_SiSStFZ",
+            "moduleName": "GAFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUpRegistration",
+            "printedName": "setUpRegistration(deviceId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11GAFramework19GAAnalyticsReporterC17setUpRegistration8deviceIdySS_tFZ",
+            "mangledName": "$s11GAFramework19GAAnalyticsReporterC17setUpRegistration8deviceIdySS_tFZ",
+            "moduleName": "GAFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUpLogin",
+            "printedName": "setUpLogin(deviceId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11GAFramework19GAAnalyticsReporterC10setUpLogin8deviceIdySS_tFZ",
+            "mangledName": "$s11GAFramework19GAAnalyticsReporterC10setUpLogin8deviceIdySS_tFZ",
+            "moduleName": "GAFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUpPaymentCompletion",
+            "printedName": "setUpPaymentCompletion(deviceId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11GAFramework19GAAnalyticsReporterC22setUpPaymentCompletion8deviceIdySS_tFZ",
+            "mangledName": "$s11GAFramework19GAAnalyticsReporterC22setUpPaymentCompletion8deviceIdySS_tFZ",
+            "moduleName": "GAFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11GAFramework19GAAnalyticsReporterC",
+        "mangledName": "$s11GAFramework19GAAnalyticsReporterC",
+        "moduleName": "GAFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "kind": "StringLiteral",
+      "offset": 1688,
+      "length": 5,
+      "value": "\"DEV\""
+    },
+    {
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "kind": "StringLiteral",
+      "offset": 1696,
+      "length": 3,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "kind": "StringLiteral",
+      "offset": 1739,
+      "length": 18,
+      "value": "\"CUSTOM_DEVICE_ID\""
+    },
+    {
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "kind": "StringLiteral",
+      "offset": 1896,
+      "length": 10,
+      "value": "\"game won\""
+    },
+    {
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "kind": "StringLiteral",
+      "offset": 2094,
+      "length": 11,
+      "value": "\"game lost\""
+    },
+    {
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "kind": "StringLiteral",
+      "offset": 2296,
+      "length": 12,
+      "value": "\"cart_value\""
+    },
+    {
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "kind": "StringLiteral",
+      "offset": 2359,
+      "length": 8,
+      "value": "\"DEVICE\""
+    },
+    {
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "kind": "StringLiteral",
+      "offset": 2370,
+      "length": 3,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "kind": "StringLiteral",
+      "offset": 2387,
+      "length": 4,
+      "value": "\"_1\""
+    },
+    {
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "kind": "StringLiteral",
+      "offset": 2505,
+      "length": 11,
+      "value": "\"DEVICE_ID\""
+    },
+    {
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "kind": "StringLiteral",
+      "offset": 2571,
+      "length": 21,
+      "value": "\"CUSTOM_REGISTRATION\""
+    },
+    {
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "kind": "StringLiteral",
+      "offset": 2699,
+      "length": 11,
+      "value": "\"DEVICE_ID\""
+    },
+    {
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "kind": "StringLiteral",
+      "offset": 2765,
+      "length": 14,
+      "value": "\"CUSTOM_LOGIN\""
+    },
+    {
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "kind": "StringLiteral",
+      "offset": 2903,
+      "length": 3,
+      "value": "\"D\""
+    },
+    {
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "kind": "StringLiteral",
+      "offset": 2909,
+      "length": 3,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "kind": "StringLiteral",
+      "offset": 2926,
+      "length": 4,
+      "value": "\"_2\""
+    },
+    {
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "kind": "StringLiteral",
+      "offset": 2958,
+      "length": 16,
+      "value": "\"payment_status\""
+    },
+    {
+      "filePath": "\/Users\/krishnanampally\/Documents\/GitHub\/GAFrameworkSC\/GAFramework\/GAFramework\/GAAnalyticsReporter.swift",
+      "kind": "StringLiteral",
+      "offset": 2975,
+      "length": 10,
+      "value": "\"Complete\""
+    }
+  ]
+}

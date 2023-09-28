@@ -1,0 +1,24 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name GAFramework
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import FirebaseAnalytics
+import FirebaseAuth
+import FirebaseCore
+import FirebaseFirestore
+import Foundation
+@_exported import GAFramework
+import Swift
+import _Concurrency
+import _StringProcessing
+@_hasMissingDesignatedInitializers public class GAAnalyticsReporter {
+  public class func configureFirebase()
+  public class func setUpFirstOpen(deviceId: Swift.String)
+  public class func setUpGameWonEvent(gameName: Swift.String, value: Swift.String)
+  public class func setUpGameLostEvent(gameName: Swift.String, value: Swift.String)
+  public class func setUpCartValue(key: Swift.String, size: Swift.Int, deviceId: Swift.String)
+  public class func setUpRegistration(deviceId: Swift.String)
+  public class func setUpLogin(deviceId: Swift.String)
+  public class func setUpPaymentCompletion(deviceId: Swift.String)
+  @objc deinit
+}

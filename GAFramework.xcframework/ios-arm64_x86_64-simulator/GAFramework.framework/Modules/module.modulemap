@@ -1,0 +1,11 @@
+framework module GAFramework {
+  umbrella header "GAFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module GAFramework.Swift {
+  header "GAFramework-Swift.h"
+  requires objc
+}
